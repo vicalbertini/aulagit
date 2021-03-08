@@ -7,6 +7,14 @@ private double bonus;
 private String nome;
 private int idade;
 
+public int getTipo() {
+    return tipo;
+}
+public void setTipo(int tipo) {
+    this.tipo = tipo;
+}
+
+
 public double calcularSalario(){
     switch (tipo){
         case 1:
